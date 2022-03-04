@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,22 +12,23 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
 
     <!-- Шапка сайта -->
     <header>
         <nav>
-            <a href="index.html">WebStudio</a>
+            <a href="index.html" class="homepage-logo">Web<span class="logo-span">Studio</span></a>
             <ul>
-                <li><a href="index.html">Студия</a></li>
-                <li><a href="portfolio.html">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+                <li><a href="index.html"class="pagination">Студия</a></li>
+                <li><a href="portfolio.html" class="pagination">Портфолио</a></li>
+                <li><a href="" class="pagination">Контакты</a></li>
             </ul>
         </nav>
 
         <Ul>
-            <li><a href="mailto:">info@devstudio.com</a></li>
-            <li><a href="tel:">+38 096 111 11 11</a></li>
+            <li><a href="mailto:" class="pagination contacts-header">info@devstudio.com</a></li>
+            <li><a href="tel:" class="pagination contacts-header">+38 096 111 11 11</a></li>
         </Ul>
     </header>
 
@@ -34,19 +36,19 @@
     <main>
 
         <!-- Шапка -->
-        <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
+        <section class="slider">
+            <h1 class="slider-header">Эффективные решения для вашего бизнеса</h1>
+            <button type="button" class="btn">Заказать услугу</button>
         </section>
-        
+
         <!-- Особенности -->
-        <section>
+        <section class="">
             <h2>Особенности</h2>
 
             <ul>
                 <li>
                     <h3>Внимание к деталям</h3>
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    <p style="font-size: 14px; line-height: 24px;">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
                 <li>
                     <h3>Пунктуальность</h3>
@@ -62,7 +64,7 @@
                 </li>
             </ul>
         </section>
-        
+
         <!-- Список работ -->
         <section>
             <h2>Чем мы занимаемся</h2>
@@ -108,18 +110,19 @@
     </main>
 
     <!-- Футэр -->
-    <footer>
-       
-        <a href="">WebStudio</a>
+    <footer class="foot-menu">
+
+        <a href="index.html" class="homepage-logo">Web<span class="logo-span">Studio</span></a>
 
         <!-- контакты и адресc -->
         <address>
-            <p>г. Киев, пр-т Леси Украинки, 26</p>
+            <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
             <ul>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:380991111111">+38 099 111 11 11</a></li>
+                <li><a href="mailto:info@example.com" class="address-link">info@example.com</a></li>
+                <li><a href="tel:380991111111" class="address-link">+38 099 111 11 11</a></li>
             </ul>
         </address>
     </footer>
 </body>
+
 </html>
