@@ -13,7 +13,6 @@ body {
   color: var(--main-color);
 
   font-size: 14px;
-  letter-spacing: 0.03em;
 
   background-color: var(--white-color);
 }
@@ -61,6 +60,10 @@ body {
   list-style: none;
 }
 
+.team-item {
+  background-color: var(--white-color);
+}
+
 /* контакты */
 
 .contacts-header {
@@ -103,10 +106,7 @@ body {
 
 .btn,
 .button-filter {
-  background-color: var(--hover-color);
-
   font-family: "Roboto", sans-serif;
-  color: var(--main-color);
 
   font-weight: bold;
   font-size: 16px;
@@ -115,15 +115,21 @@ body {
   cursor: pointer;
 }
 
+.btn,
 .current-btn {
   background-color: var(--hover-color);
   color: var(--white-color);
+}
+
+.btn {
+  letter-spacing: 0.06em;
 }
 
 /* загловки и текст */
 
 .hdr {
   text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 
 .heading {
@@ -183,6 +189,7 @@ body {
   color: var(--white-color);
 
   font-size: 44px;
+  line-height: 1.36;
   font-weight: 900;
 }
 
